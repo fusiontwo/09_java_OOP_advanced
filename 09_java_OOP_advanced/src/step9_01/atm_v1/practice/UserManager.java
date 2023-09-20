@@ -60,6 +60,10 @@ public class UserManager {
 		}
 	}
 	
+	User getUser(int idx) {  
+		return user[idx];  // user 배열에 저장된 User 객체 중 하나를 리턴 (ex. 원하는 1명의 유저는 identifier를 인자로 넘겨줌.)
+	}
+	
 	int logUser() {
 		int identifier = -1;
 		System.out.print("[입력] 아이디를 입력하세요 : ");
@@ -72,6 +76,10 @@ public class UserManager {
 		}
 		
 		return identifier;
+	}
+	
+	void leave() {
+		
 	}
 	
 	

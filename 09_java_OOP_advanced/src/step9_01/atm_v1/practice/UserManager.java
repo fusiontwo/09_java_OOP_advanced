@@ -77,7 +77,7 @@ public class UserManager {
 		
 		return identifier;
 	}
-	
+	 
 	void leave() {
 		System.out.print("탈퇴할 아이디를 입력하세요 : ");
 		String name = scan.next();

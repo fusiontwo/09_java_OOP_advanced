@@ -25,7 +25,7 @@ public class ATM {
 			else if (sel == 0) break;
 		}
 		System.out.println("프로그램을 종료합니다.");
-	}
+	} 
 	
 	void login() {
 		identifier = userManager.logUser();
